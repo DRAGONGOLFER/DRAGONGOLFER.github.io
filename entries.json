@@ -34,7 +34,13 @@
 		"date":"06/9/2015",
 		"title":"Blog Post 7",
 		"text":"So I am the project manager for our group game OHSHIT! and thats pretty cool. Im to divy up tasks depending on what needs to be completed. I also started thiking of ideas for my personal project, but I might just elaborate on my SSListener or just do a basic echobot, Im not sure. We shall see. I had a good day. I need to go home and read a decent amount. So ye, thats what Im going to do. Problably work on the project as well. I think I will keep it kind of short today because a lot of the time was spent on our game. I shall see you on the morrow."
+		},
+		{
+		"date":"06/10/2015",
+		"title":"Blog Post 8",
+		"text":"So we finished OHSHIT today! It actually turned out quite well. I enjoyed being the project lead, and we all learned a lot. I also started on my personal project which is a proof of concept malware that forces a computer offline by generating an infinite amount of numbers and spawning a new process to check each number, consuming all the RAM flooding the process table and shuting the system down. I can generate the numbers, but Im running into trouble checking if they are prime because the loop never gets to that function. But I think I found a workaround so we shall see. I am excited to go home and test that. I will keep you posted."
 		}
+
 
 	]
 }
