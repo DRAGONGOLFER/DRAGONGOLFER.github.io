@@ -44,6 +44,11 @@
 		"date":"06/11/2015",
 		"title":"Blog Post 9",
 		"text":"I had an awesome day today! I worked through three different versions of my fork bomb, trying to create the most effective version I could. At first it took about 4-5 minutes to kill a computer, on my third, I was testing on my development machine, thinking it wouldnt spawn that many processes that fast I ran it thinking I could do a keyboard interrupt, but it took 10 seconds to take effect and crashed my computer not the VM. So that was awesome, I started building a WMI console application to look at the health of the system as the fork bomb is running, and implement functionality to control the rate of process creation/destruction so I can see how it affects the computer. I am looking forward to going home and working on this more."
+		},
+		{
+		"date":"06/12/2015",
+		"title":"Blog Post 10",
+		"text":"I know I had a good day when I am super spent like depleted uranium at the end of it. I learned a lot today, I got my MVP of my WMI-console built, and now Im working on adding functionality that lets me deploy my various logic bombs remotely for stress testing. I am also working on my IO bomb now, and that will be interesting to see it when its done. I also had the code test problem today which was to build class objects for a colony and ants, I ended up consolidating them into one class, set type queen or worker, set location as a series of 3D coordinates, and set the queens mating to only one worker, and stored all the data about each ant in a dictionary. This was just a whiteboard problem so it was pretty pseudocodey though I did do well. We also started a Lemonade Stand program today, and thats a bit of a challenge because there are so many variables that have to affect each other before anything can be done with them, so Im going to work on that this weekend."
 		}
 
 
