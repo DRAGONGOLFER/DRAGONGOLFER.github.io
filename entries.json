@@ -69,6 +69,11 @@
 		"date":"06/18/2015",
 		"title":"Blog Post 14",
 		"text":"So I had another good day today, I got soooo much done. I got my asteroids to split apart and have smaller radii on collision with a bullet, the spin works better, they now meander along an orbital path so to speak, and there are different sized graphics for the asteroids, graphics for explosions, and sounds to go with them. Our game is really shaping up. Its lovely. I did a lot of maths today to get the meandering to work and it was a lot of fun actually, getting to use that knowledge again. Ill keep this brief today because I am kind of fried so ye. I will return."
+		},
+		{
+		"date":"06/19/2015",
+		"title":"Blog Post 15",
+		"text":"Wow today was a great damn day, but I am so exhauseted. We got out clone of asteroids finished, and I am incredibly proud of what we did and what I did, and the way I approached the collision detection building my own functions for that vs using pygames. We then went to PKware for a tour, and that was the best part of my day. I love security and encryption, and I was pushing myself asking all sorts of questions. I could totally see myself working there, it would be such a good fit for me. I am going to ask bob to help me write up an email to send on monday, as I would really really like to pursue that. Im going to wrap this up because im incredibly spent. I shall return on monday!"
 		}
 
 
