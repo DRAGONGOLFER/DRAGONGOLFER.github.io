@@ -15,11 +15,11 @@ function getblog(){
 }
 
 function pager(){
-	$("<input type='button' name='prev' value='Prev'/>").click(previous() {
+	$("<input type='button' name='prev' value='Prev'/>").click(function() {
 		alert('hi2');
 		//here i need functionality to get the last 5 posts and display them or hide the button if first page
 	}).appendTo("#blog");
-	$("<input type='button' name='next' value='Next'/>").click(next() {
+	$("<input type='button' name='next' value='Next'/>").click(function() {
 		alert('hi');
 		//here I need to get the next 5 posts and display them or hide the button if last page
 	}).appendTo("#blog");
