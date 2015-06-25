@@ -12,3 +12,12 @@ function getblog(){
 		});
 	});
 }
+
+function pager(){
+	$("<input type='button' name='prev' value='Prev'/>").click(previous() {
+		alert('hi2');
+	}).appendTo("#blog");
+	$("<input type='button' name='next' value='Next'/>").click(next() {
+		alert('hi');
+	}).appendTo("#blog");
+}
