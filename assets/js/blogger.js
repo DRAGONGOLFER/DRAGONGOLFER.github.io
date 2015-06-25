@@ -36,16 +36,16 @@ function pager(){
 //
 
 
-// var interval = undefined;//use for a fadein et unnescessaris
+var interval = undefined;//use for a fadein et unnescessaris
 
-// function get_prev(){
-// 	var $curr = $("#blog"),
-// 	$next = ($curr.prev().length) ? $curr.prev() : $("#blog").last()
-// };
+function get_prev(){
+	var $curr = $("#blog"),
+	$next = ($curr.prev().length) ? $curr.prev() : $("#blog").last()
+};
 
-// function get_next(){
-// 	var $curr = $("#blog"), 
-// 	$next = ($curr.next().length) ? $curr.next() : $("#blog").first();
-// };
+function get_next(){
+	var $curr = $("#blog"), 
+	$next = ($curr.next().length) ? $curr.next() : $("#blog").first();
+};
 
 
