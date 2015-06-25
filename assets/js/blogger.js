@@ -1,6 +1,7 @@
 $(document).ready(getblog);
 
 function getblog(){
+	pager();
 	$.getJSON("entries.json", function(data){
 		$.each(data.entries, function(key, val){
 			if (key < 5){// now 5 posts show up at a time 
@@ -16,8 +17,14 @@ function getblog(){
 function pager(){
 	$("<input type='button' name='prev' value='Prev'/>").click(previous() {
 		alert('hi2');
+		//here i need functionality to get the last 5 posts and display them or hide the button if first page
 	}).appendTo("#blog");
 	$("<input type='button' name='next' value='Next'/>").click(next() {
 		alert('hi');
+		//here I need to get the next 5 posts and display them or hide the button if last page
 	}).appendTo("#blog");
 }
+
+//check what page im on or do it check which posts are displaying
+//then load up the page based on next or prev. 
+//
