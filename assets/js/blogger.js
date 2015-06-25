@@ -4,7 +4,7 @@ function getblog(){
 	pager();
 	$.getJSON("entries.json", function(data){
 		$.each(data.entries, function(key, val){
-			if (key.length < 5){// now 5 posts show up at a time 
+			if (key < 5){// now 5 posts show up at a time 
 				console.log(key);
 				$("#blog").prepend("<p>" + val.text + "</p>");
 				$("#blog").prepend("<h6>" + val.date + "</h6>");
@@ -36,16 +36,16 @@ function pager(){
 //
 
 
-var interval = undefined;//use for a fadein et unnescessaris
+// var interval = undefined;//use for a fadein et unnescessaris
 
-function get_prev(){
-	var $curr = $("#blog"),
-	$next = ($curr.prev().length) ? $curr.prev() : $("#blog").last()
-};
+// function get_prev(){
+// 	var $curr = $("#blog"),
+// 	$next = ($curr.prev().length) ? $curr.prev() : $("#blog").last()
+// };
 
-function get_next(){
-	var $curr = $("#blog"), 
-	$next = ($curr.next().length) ? $curr.next() : $("#blog").first();
-};
+// function get_next(){
+// 	var $curr = $("#blog"), 
+// 	$next = ($curr.next().length) ? $curr.next() : $("#blog").first();
+// };
 
 
