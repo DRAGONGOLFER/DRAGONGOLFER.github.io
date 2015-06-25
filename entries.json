@@ -89,6 +89,11 @@
 		"date":"06/24/2015",
 		"title":"Blog Post 18",
 		"text":"I personally had a pretty resoundingly epic day today, though a bit slow. I still got a lot done. I got 3 labs done, and the last one I got done, but its being weird and looping through saying people arent members of the family untill it hits their entry in the JSON. So I will look at that. We had an awesome internet lecture with andrew today, which was also great. Mostly review and discussion but I love discussion so ye. I also gave some thought to JS personal projects and have some good ideas, some crypto. I also got some ideas about manipulation of the AES-NI instruction set and the elliptic curve random number generator that is uses for manipulation of the instruction set. But I will wrap this up so I can peace outie and before I bore the readers id est you."
+		},
+		{
+		"date":"06/25/2015",
+		"title":"Blog Post 19",
+		"text":"So it was definitely a thursday today, I made some good progress, but didnt get as much done as I would have liked with regards to the blog and pagination of said blog. I am super close though and think I figured out how to solve my problem. I will set the div id equal to the key in the json. Hopefully that will do what I need. I think for my personal project I will do a web app of some sort that you can input your text or file and encrypt it in a variety of means with a variety of different algorithms for the crypto itself, hasing, and even random number generation. I really like that idea actually, for my personal project. Anyway tomorrow Im hoping to have the pagination working and at least the search function halfway implemented. Im hoping to make some headway when I get home as well. So I will see you on the morrow readers. Peace outie."
 		}
 
 
