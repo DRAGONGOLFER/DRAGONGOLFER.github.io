@@ -1,7 +1,6 @@
 $(document).ready(getposts);
 
 function getblog(){
-	//pager();
 	$.getJSON("entries.json", function(data){
 		$.each(data.entries, function(key, val){
 			//if (key < 5){// now 5 posts show up at a time 
