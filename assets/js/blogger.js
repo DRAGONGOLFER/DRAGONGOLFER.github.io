@@ -1,4 +1,4 @@
-$(document).ready(getposts);
+$(document).ready(getblog);
 
 function getblog(){
 	$.getJSON("entries.json", function(data){
