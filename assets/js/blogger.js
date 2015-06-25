@@ -6,7 +6,8 @@ function getblog(){
 		$.each(data.entries, function(key, val){
 			if (key.length < 5){// now 5 posts show up at a time 
 				console.log(key);
-				console.log(key.length);
+				console.log(key.length());
+				console.log(val);
 				$("#blog").prepend("<p>" + val.text + "</p>");
 				$("#blog").prepend("<h6>" + val.date + "</h6>");
 				$("#blog").prepend("<h5>" + val.title + "</h5>");	
