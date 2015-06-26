@@ -94,6 +94,11 @@
 		"date":"06/25/2015",
 		"title":"Blog Post 19",
 		"text":"So it was definitely a thursday today, I made some good progress, but didnt get as much done as I would have liked with regards to the blog and pagination of said blog. I am super close though and think I figured out how to solve my problem. I will set the div id equal to the key in the json. Hopefully that will do what I need. I think for my personal project I will do a web app of some sort that you can input your text or file and encrypt it in a variety of means with a variety of different algorithms for the crypto itself, hasing, and even random number generation. I really like that idea actually, for my personal project. Anyway tomorrow Im hoping to have the pagination working and at least the search function halfway implemented. Im hoping to make some headway when I get home as well. So I will see you on the morrow readers. Peace outie."
+		},
+		{
+		"date":"06/26/2015",
+		"title":"Blog Post 20",
+		"text":"WOOO Tis Friday and it was a good friday. We started work on this House Construction Calculator that has to adjust all the values upon keypress and I have a lot of the core functionality of that done, Im just trying to get the onkeypress to work now. It works if I use a submit button but we cant use that for the challenge so I am figuring it out. I also made some good headway on my blog and that was fantastic! I also played around with SQL today along with doing some research related to crypto implementation in javascript. But Im going to get going so I can go home and relax and work some more. I will see you on monday readers!"
 		}
 
 

@@ -6,9 +6,8 @@ function getblog(){
 		$.each(data.entries, function(key, val){
 			if (key < 5){// now 5 posts show up at a time 
 				console.log(key);
-				$("#blog").prepend("<p>" + val.text + "</p>");
-				$("#blog").prepend("<h6>" + val.date + "</h6>");
-				$("#blog").prepend("<h5>" + val.title + "</h5>");	
+				var formatted_post = "<div id=" +key+ " class='col-sm-12 blogpost'><small><p class='muted' style='float:right;'>" + val.date + "</p></small><h5>" + val.title + "</h5><p>"+ val.text + "</p><hr/></div>"
+				$('#blog').prepend(formatted_post);
 			}	
 		});
 	});
