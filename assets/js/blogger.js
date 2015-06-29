@@ -4,6 +4,8 @@ function getblog(){
 	pager();
 	$.getJSON("entries.json", function(data){
 		$.each(data.entries, function(key, val){
+			var num_of_blogs = data.entries.length;
+
 			if (key < 5){// now 5 posts show up at a time 
 				console.log(key);
 				var formatted_post = "<div id=" +key+ " class='col-sm-12 blogpost'><small><p class='muted' style='float:right;'>" + val.date + "</p></small><h5>" + val.title + "</h5><p>"+ val.text + "</p><hr/></div>"
@@ -46,5 +48,3 @@ function pager(){
 // 	var $curr = $("#blog"), 
 // 	$next = ($curr.next().length) ? $curr.next() : $("#blog").first();
 // };
-
-
