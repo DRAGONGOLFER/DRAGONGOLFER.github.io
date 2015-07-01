@@ -109,6 +109,11 @@
 		"date":"06/30/2015",
 		"title":"Blog Post 22",
 		"text":"So tuesday was pretty good as well. We worked more on our group project, and I was doing a lot of the MongoDB stuff so I have a really good handle on that, ran into some trouble with ajax though so I am going to go home and figure that out. Its really shaping up quite well though. I will ammend this posting with one tomorrow morning."
+		},
+		{
+		"date":"07/1/2015",
+		"title":"Blog Post 23",
+		"text":"It was a good wednesday today, I made a good bit of progress with Chomp today! Mike and I got the ajax call to generate new users/surveys/etc. I was also able to create all the relavent collectione we need. I got the admin login page done as well, and the main page looks good too. I wrote all the functions nescessary for python manipulation of the database to get it to work, and now we are refactoring the code to have more flexible data access objects and its going quite well. Im sure we will have a good MVP by the end of the day. I cant wait to see what it looks like come Monday. I learned a lot about MongoDB today though, and Im glad for that. I still need to hash passwords from the page before they go into the db, but Im not worried about that. I will see you tomorrow readers!"
 		}
 
 
