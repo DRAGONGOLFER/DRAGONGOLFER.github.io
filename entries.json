@@ -114,6 +114,16 @@
 		"date":"07/1/2015",
 		"title":"Blog Post 23",
 		"text":"It was a good wednesday today, I made a good bit of progress with Chomp today! Mike and I got the ajax call to generate new users/surveys/etc. I was also able to create all the relavent collectione we need. I got the admin login page done as well, and the main page looks good too. I wrote all the functions nescessary for python manipulation of the database to get it to work, and now we are refactoring the code to have more flexible data access objects and its going quite well. Im sure we will have a good MVP by the end of the day. I cant wait to see what it looks like come Monday. I learned a lot about MongoDB today though, and Im glad for that. I still need to hash passwords from the page before they go into the db, but Im not worried about that. I will see you tomorrow readers!"
+		},
+		{
+		"date":"07/6/2015",
+		"title":"Blog Post 24",
+		"text":"Today is monday and the last day of our JavaScript unit. Our project Chomp turned out really well. Even though we didnt get everything done in the allotted time we still had a kickass MVP. So Im fine with that. It was a good group project to work on. I definitely learned a lot."
+		},
+		{
+		"date":"07/7/2015",
+		"title":"Blog Post 25",
+		"text":"We started C# today so woooo!! That actually went quite well, we had lectures from about 8 to 12 with ben, and they were quite helpful and informative. We started with building a tiny robot builder to learn the basics of C# and start learning the little details we need to know. Its going well so far, its just hard to absorb soooo much information in one sitting. I will be back tomorrow for more learning and such."
 		}
 
 
