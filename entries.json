@@ -124,6 +124,11 @@
 		"date":"07/7/2015",
 		"title":"Blog Post 25",
 		"text":"We started C# today so woooo!! That actually went quite well, we had lectures from about 8 to 12 with ben, and they were quite helpful and informative. We started with building a tiny robot builder to learn the basics of C# and start learning the little details we need to know. Its going well so far, its just hard to absorb soooo much information in one sitting. I will be back tomorrow for more learning and such."
+		},
+		{
+		"date":"07/8/2015",
+		"title":"Blog Post 26",
+		"text":"Another epic C# day, we covered a lot. We covered unit testing, Integration testing, Acceptance Testing, Performance Testing, Penetration Testing, all sorts of testing! We then proceded to flesh out our robot project some more and then built unit tests for those!!! I got to help demonstrate so that was fun. I also built some cool unit tests for my robot program and am getting the hang of it. We also covered Complex Constructs. Exceptions, Generics, Mutability, etc. And Im starting on our calculator project and that will be fun to build in my opinion, especially if we have to get creative with the code. :) So I shall return on the morrow for more C# epicness. Peace Outie."
 		}
 
 
